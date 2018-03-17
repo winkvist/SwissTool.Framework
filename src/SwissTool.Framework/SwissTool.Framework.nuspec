@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SwissTool.Framework</id>
+    <version>1.1.1</version>
+    <title>SwissTool.Framework</title>
+    <authors>Fredrik Winkvist</authors>
+    <owners>Fredrik Winkvist</owners>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Infrastructure necessary for developing SwissTool extensions</description>
+    <releaseNotes>Refactoring.</releaseNotes>
+    <copyright>Copyright 2018 (c) Fredrik Winkvist. All rights reserved.</copyright>
+    <tags>MultiTool Tool WPF Plugin Extension Loader HotKey</tags>
+	<dependencies>
+		<group targetFramework="net452">
+			<dependency id="Newtonsoft.Json" version="10.0.3" />
+		</group>
+	</dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\SwissTool.Framework.dll" target="lib\net452\SwissTool.Framework.dll" />
+    <file src="bin\Release\SwissTool.Framework.xml" target="lib\net452\SwissTool.Framework.xml" />
+</files>
+</package>
