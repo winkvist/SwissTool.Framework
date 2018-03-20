@@ -54,6 +54,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commanding\RelayCommand.cs" />
     <Compile Include="Definitions\IExtensionHotKeyAction.cs" />
     <Compile Include="Definitions\IActionHotKey.cs" />
     <Compile Include="Definitions\IExtension.cs" />
@@ -80,7 +81,9 @@
     <Compile Include="Utilities\Serialization\XmlUtils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
