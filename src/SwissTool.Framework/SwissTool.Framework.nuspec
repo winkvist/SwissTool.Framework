@@ -2,18 +2,18 @@
 <package >
   <metadata>
     <id>SwissTool.Framework</id>
-    <version>1.1.2</version>
+    <version>1.1.3</version>
     <title>SwissTool.Framework</title>
     <authors>Fredrik Winkvist</authors>
     <owners>Fredrik Winkvist</owners>
 	<requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Infrastructure necessary for developing SwissTool extensions</description>
-    <releaseNotes>Added RelayCommand class.</releaseNotes>
-    <copyright>Copyright 2018 (c) Fredrik Winkvist. All rights reserved.</copyright>
+    <releaseNotes>Updated Newtonsoft.Json to v13.0.1.</releaseNotes>
+    <copyright>Copyright 2022 (c) Fredrik Winkvist. All rights reserved.</copyright>
     <tags>MultiTool Tool WPF Plugin Extension Loader HotKey</tags>
 	<dependencies>
 		<group targetFramework="net452">
-			<dependency id="Newtonsoft.Json" version="10.0.3" />
+			<dependency id="Newtonsoft.Json" version="13.0.1" />
 		</group>
 	</dependencies>
   </metadata>
